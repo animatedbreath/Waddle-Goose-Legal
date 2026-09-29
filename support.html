@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Support — Waddle Goose</title>
+<style>
+  :root {
+    --bg: #fbf8f2; --ink: #23201c; --muted: #6a6258; --rule: #e2dcd0;
+    --accent: #c2641b; --card: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #16181c; --ink: #e9e6df; --muted: #9a958c; --rule: #2c3037;
+            --accent: #f0a45c; --card: #1d2026; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 3rem 1.25rem 5rem;
+    background: var(--bg); color: var(--ink);
+    font: 17px/1.65 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+          "Helvetica Neue", Arial, "Apple SD Gothic Neo", sans-serif;
+  }
+  main { max-width: 42rem; margin: 0 auto; }
+  h1 { font-size: 2rem; line-height: 1.2; margin: 0 0 .3rem; }
+  h2 { font-size: 1.2rem; margin: 2.6rem 0 .7rem; }
+  h3 { font-size: 1rem; margin: 1.6rem 0 .35rem; }
+  .tag { color: var(--muted); margin: 0 0 2.5rem; }
+  p, li { margin: 0 0 .9rem; }
+  ul { padding-left: 1.2rem; }
+  a { color: var(--accent); }
+  hr { border: 0; border-top: 1px solid var(--rule); margin: 3.5rem 0; }
+  .card {
+    background: var(--card); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 1.1rem 1.3rem; margin: 0 0 1rem;
+  }
+  .card h3 { margin-top: 0; }
+  .card p:last-child { margin-bottom: 0; }
+  .keys {
+    display: grid; grid-template-columns: max-content 1fr; gap: .35rem 1rem;
+    margin: 0 0 1rem;
+  }
+  .keys dt { font-weight: 600; }
+  .keys dd { margin: 0; }
+  footer { color: var(--muted); font-size: .9rem; margin-top: 3rem; }
+</style>
+</head>
+<body>
+<main>
+
+<h1>Waddle Goose — Support</h1>
+<p class="tag">A two-button goose party game for up to four people around one iPad.</p>
+
+<h2>Get in touch</h2>
+<p>Email <a href="mailto:leafboat.js@gmail.com">leafboat.js@gmail.com</a> — we
+read everything, and we would love to hear how your table plays.</p>
+<p>If you are reporting a problem, the things that help most are which game it
+happened in, how many corners were people and how many were robots, and which
+iPad you were playing on.</p>
+
+<h2>How to play</h2>
+<p>Each corner of the iPad belongs to one player, and each player has <strong>two
+big buttons: a left foot and a right foot.</strong> That is all.</p>
+<dl class="keys">
+  <dt>Left, right, left, right</dt><dd>Waddle forward. The faster you tap, the faster your goose goes.</dd>
+  <dt>Same foot twice</dt><dd>Turn. The left button turns your goose left, the right button turns it right.</dd>
+  <dt>Both at once</dt><dd>Hop, with a flap of the wings — over logs and streams, or out of trouble.</dd>
+</dl>
+<p>Walk into another goose and it is a <strong>bonk</strong>: both of you bounce
+back and see stars for a moment. Tapping quickly shakes it off sooner.</p>
+<p>The very first time you play, a short how-to plays over the setup screen. It
+closes by itself once a player has taken three steps (or tap <em>Skip</em>). The
+<em>?</em> button on the setup screen brings it back any time.</p>
+
+<h3>Setting up a game</h3>
+<p>Tap <em>Play</em>, choose a game, and you land on the setup screen with the
+four corners laid out. <strong>Tap a corner's outer arc</strong> to change who sits
+there: Player → Robot (Easy) → Robot (Normal) → Robot (Hard) → empty.</p>
+<ul>
+  <li>The <strong>colour dot</strong> on a corner's pads changes that goose's
+  colour (eight to choose from).</li>
+  <li>The <strong>⇄</strong> button (people only) swaps which pad is which foot,
+  for anyone who finds it easier the other way round.</li>
+  <li>Some games show a <strong>clock button</strong> to pick the round length,
+  and Feast has a button to switch between the farmyard and the pond.</li>
+</ul>
+<p>Then tap <em>Start</em>. Any mix works: one person against three robots, four
+people, two people and two empty corners.</p>
+
+<h3>The five games (and Practice)</h3>
+<div class="card">
+  <h3>Feast</h3>
+  <p>Food pops up around the farmyard (or the pond). Walk up to it and your goose
+  eats it by itself — but eating takes a moment, and a bonk steals your snack.
+  Most food when time runs out wins. If there is a tie for first, a single golden
+  snack appears in the middle to settle it.</p>
+</div>
+<div class="card">
+  <h3>Hide</h3>
+  <p>Musical chairs with a hawk. There is always one hole fewer than there are
+  geese, and the lids stay shut until the hawk's shadow crosses the beach. Then
+  they flip open: get into one. Any goose still outside is carried off and out
+  of the round. Last goose standing wins.</p>
+</div>
+<div class="card">
+  <h3>Repel</h3>
+  <p>Everyone has a nest of three eggs, ribboned in their colour, and a fox in
+  the same colour comes for it. <strong>Look at a fox and it freezes; hop in front
+  of it and it bolts.</strong> Chase it all the way off for a point. Lose
+  all three eggs and you are out. Last nest standing wins.</p>
+</div>
+<div class="card">
+  <h3>Lap</h3>
+  <p>A race once round the island. Everyone rolls a die first — tap your quarter
+  of the screen to throw — and the highest roll takes the inside lane. On the
+  way: a log and a stream to hop (press both feet together), and mud that makes
+  every step small.</p>
+</div>
+<div class="card">
+  <h3>Through the Exit</h3>
+  <p>A runaway gate wanders the snowfield, and it runs faster when you get close.
+  Cut it off, corner it, and waddle through it for a point. More gates appear as
+  the clock runs down. Most points wins.</p>
+</div>
+<div class="card">
+  <h3>Practice</h3>
+  <p>No clock and no winner — just a playground to learn the waddle. Tap
+  <em>Done</em> at either side of the screen when you have had enough.</p>
+</div>
+
+<h3>Dressing up</h3>
+<p>Tap <em>Dress up</em> on the title screen. Pick a seat (P1–P4), then a slot —
+hats, neckwear, bags or shoes — and tap an item to wear it (tap again to take it
+off). Drag the goose to look at it from every side. Each seat keeps its own
+outfit, and it wears it in every game.</p>
+<p>There are 80 items, and <strong>every one opens by playing</strong>: a locked
+item shows what opens it (for example "Win 3 rounds") and how far along you
+are. Only people's play counts — a robot's win does not open anything. When a
+round opens something new, the results screen says so. Everything is shared by
+everyone playing on the same iPad. There is nothing to buy.</p>
+
+<h2>Common questions</h2>
+
+<h3>Can four people really play at once?</h3>
+<p>Yes — every game is real-time, everybody plays at the same time, and the iPad
+tracks every finger separately (eight buttons, two per corner). Sitting round the
+iPad flat on a table works best.</p>
+
+<h3>Can I play alone?</h3>
+<p>Yes. Set your corner to Player and the others to Robot. Easy robots are
+gentle, Normal ones keep up, and Hard ones walk as fast as a quick-fingered
+grown-up.</p>
+
+<h3>How do I pause or leave a game?</h3>
+<p>Tap the pause button at the middle of the left or right edge of the screen.
+From there you can keep playing, change who sits where, or go back to the games.
+(In Practice, the <em>Done</em> buttons are in the same place.)</p>
+
+<h3>How do I change the language?</h3>
+<p>Title screen → <em>Settings</em> → the language button. Each tap moves to the
+next of English, 한국어, 日本語, 中文, Español, Français and Bahasa Indonesia, and
+the menus change the moment you tap. On a fresh install the game picks the
+language your iPad is set to.</p>
+
+<h3>How do I turn the music or sound down?</h3>
+<p>Title screen → <em>Settings</em>. There is a slider for music and one for
+sound effects; sliding either all the way down switches it off.</p>
+
+<h3>Little ones keep leaving the game by accident.</h3>
+<p>With lots of hands on the glass, a swipe from an edge or a tap on the window
+buttons at the top-left can take you out of the game. iPadOS can lock that down:
+turn on <strong>Guided Access</strong> (Settings → Accessibility → Guided Access),
+open Waddle Goose, then triple-click the top button and tap <em>Start</em>.
+Triple-click again and enter your passcode to finish. On iPadOS 26 you can also
+choose <strong>Full Screen Apps</strong> in Settings → Multitasking &amp; Gestures,
+which removes the window buttons.</p>
+
+<h3>Does it need the internet? Is there anything to buy inside the app?</h3>
+<p>No, and no. It is a one-time purchase — after that, the game never goes
+online, there are no accounts, no in-app purchases and no advertising, and it
+collects nothing about you. See the <a href="privacy-policy.html">privacy
+policy</a>.</p>
+
+<h3>Will my unlocked items come back if I delete the app?</h3>
+<p>No — they are stored only on this iPad, so deleting the app deletes them too
+(there is no account to keep them in). Unlocks are not shared between iPads.</p>
+
+<h3>Can I get a refund?</h3>
+<p>Refunds for App Store purchases are issued by Apple, not by us — we don't
+have the ability to process one directly. Request one at
+<a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>, or on
+your iPad: Settings → your name → Media &amp; Purchases → your purchase
+history.</p>
+
+<h3>Which iPads does it run on?</h3>
+<p>Any iPad running iPadOS 15 or later. It is made for iPad only and plays in
+landscape.</p>
+
+<hr>
+
+<div lang="ko">
+<h1>뒤뚱구스 — 도움말</h1>
+<p class="tag">아이패드 한 대로 최대 네 명이 함께 노는, 버튼 두 개짜리 거위 파티 게임.</p>
+
+<h2>문의</h2>
+<p><a href="mailto:leafboat.js@gmail.com">leafboat.js@gmail.com</a> 로 메일을
+보내 주세요. 모두 읽고 있고, 여러분이 어떻게 노는지 듣는 걸 무척 좋아합니다.</p>
+<p>문제를 알려주실 때는 <strong>어느 놀이에서</strong> 생겼는지, <strong>사람 자리와
+로봇 자리가 몇 개였는지</strong>, 그리고 <strong>어떤 아이패드</strong>였는지 함께
+적어 주시면 가장 큰 도움이 됩니다.</p>
+
+<h2>놀이법</h2>
+<p>아이패드의 네 구석이 한 사람씩의 자리이고, 자리마다 <strong>큰 버튼 두 개,
+왼발과 오른발</strong>이 있습니다. 그게 전부예요.</p>
+<dl class="keys">
+  <dt>왼발, 오른발 번갈아</dt><dd>뒤뚱뒤뚱 앞으로. 빨리 누를수록 빨라져요.</dd>
+  <dt>같은 발 두 번</dt><dd>돌기. 왼쪽 버튼이면 왼쪽으로, 오른쪽 버튼이면 오른쪽으로 돌아요.</dd>
+  <dt>두 발 동시에</dt><dd>날개를 퍼덕이며 폴짝! 통나무나 개울을 넘을 때, 위기에서 빠져나올 때.</dd>
+</dl>
+<p>다른 거위와 부딪히면 <strong>박치기</strong>. 둘 다 튕겨 나가 잠깐 별을 봐요.
+버튼을 빨리 누르면 더 빨리 정신을 차립니다.</p>
+<p>처음 놀 때는 자리 정하기 화면 위에 짧은 놀이 안내가 나옵니다. 누군가 세 걸음을
+걸으면 저절로 닫히고, <em>건너뛰기</em>를 눌러도 됩니다. 자리 정하기 화면의
+<em>?</em> 버튼으로 언제든 다시 볼 수 있어요.</p>
+
+<h3>판 차리기</h3>
+<p>&lt;놀기&gt;를 누르고 놀이를 고르면 네 구석이 보이는 자리 정하기 화면이 나옵니다.
+<strong>구석의 바깥 띠(원호)를 누를 때마다</strong> 사람 → 로봇(쉬움) → 로봇(보통)
+→ 로봇(어려움) → 빈자리로 바뀝니다.</p>
+<ul>
+  <li>패드 위의 <strong>동그란 색 버튼</strong>으로 그 자리 거위의 색을 바꿔요(8색).</li>
+  <li><strong>⇄</strong> 버튼(사람 자리만)은 두 패드의 왼발·오른발을 서로 바꿔요.
+  반대가 편한 분을 위해.</li>
+  <li>놀이에 따라 <strong>시간 버튼</strong>으로 판 길이를 고를 수 있고, 배불리는
+  농장 마당과 연못 중에서 고를 수 있어요.</li>
+</ul>
+<p>다 정했으면 <em>시작!</em>. 혼자서 로봇 셋과, 넷이서, 둘에 빈자리 둘 — 어떻게든
+됩니다.</p>
+
+<h3>다섯 가지 놀이와 연습장</h3>
+<ul>
+  <li><strong>배불리</strong> — 농장 마당(또는 연못)에 먹이가 나타나요. 다가가면
+  거위가 알아서 먹는데, 먹는 동안은 잠깐 무방비라 박치기에 먹이를 뺏길 수 있어요.
+  시간이 끝났을 때 제일 많이 먹은 거위가 승리. 1등이 동점이면 가운데에 황금 먹이
+  하나가 나와 승부를 가립니다.</li>
+  <li><strong>구멍 숨기</strong> — 매와 함께하는 의자 뺏기. 구멍은 언제나 거위보다
+  하나 적고, 뚜껑은 매 그림자가 해변을 지날 때까지 닫혀 있어요. 뚜껑이 열리면 얼른
+  쏙! 밖에 남은 거위는 매에게 잡혀 그 판에서 빠집니다. 마지막까지 남은 거위가 승리.</li>
+  <li><strong>몰아내기</strong> — 모두 자기 색 리본을 단 둥지에 알이 세 개씩 있고,
+  같은 색 여우가 그 알을 노려요. <strong>쳐다보면 멈추고, 여우 앞에서 폴짝 퍼덕이면
+  도망가요.</strong> 끝까지 쫓아내면 1점. 알 세 개를 다 잃으면 탈락. 마지막까지 둥지를
+  지킨 사람이 승리.</li>
+  <li><strong>한 바퀴</strong> — 섬 한 바퀴 달리기. 먼저 주사위를 던지는데(내 쪽 화면
+  4분의 1 아무 데나 탭), 가장 높은 수가 안쪽 자리. 가는 길에 통나무와 개울은 두 발을
+  같이 눌러 폴짝, 진흙에서는 종종걸음.</li>
+  <li><strong>출구 통과하기</strong> — 눈밭을 도망 다니는 문. 가까이 가면 더 빨리
+  도망가요. 앞을 막고 구석으로 몰아서 통과하면 1점. 시간이 갈수록 문이 늘어나요.
+  점수가 제일 높은 사람이 승리.</li>
+  <li><strong>연습장</strong> — 시간도 승패도 없이 뒤뚱뒤뚱 연습. 그만하고 싶으면
+  화면 양옆의 <em>그만</em>을 누르세요.</li>
+</ul>
+
+<h3>꾸미기</h3>
+<p>첫 화면의 <em>꾸미기</em>. 자리(P1~P4)를 고르고 모자·목·가방·신발 중에서 아이템을
+한 번 누르면 입고, 다시 누르면 벗어요. 거위를 드래그하면 빙 돌려볼 수 있어요. 자리마다
+자기 옷차림을 기억하고, 모든 놀이에서 그 옷을 입고 나옵니다.</p>
+<p>아이템은 모두 80가지이고, <strong>전부 놀면서 열립니다</strong>. 잠긴 아이템에는
+여는 조건(예: "3번 이기기")과 지금까지의 진행도가 보여요. 사람이 논 것만 세고, 로봇이
+이긴 건 세지 않아요. 새 아이템이 열리면 결과 화면에 알려 줍니다. 같은 아이패드에서
+노는 모두가 함께 씁니다. 살 것은 하나도 없어요.</p>
+
+<h2>자주 묻는 것</h2>
+
+<h3>정말 넷이 동시에 할 수 있나요?</h3>
+<p>네. 모든 놀이가 실시간이라 모두 동시에 움직이고, 아이패드가 손가락을 하나하나 따로
+알아봅니다(구석마다 두 개, 버튼 여덟 개). 아이패드를 탁자에 눕혀 놓고 둘러앉는 게
+가장 좋아요.</p>
+
+<h3>혼자서도 할 수 있나요?</h3>
+<p>네. 내 자리는 사람, 나머지는 로봇으로 두세요. 쉬움은 순하고, 보통은 곧잘 따라오고,
+어려움은 손 빠른 어른만큼 빨리 걸어요.</p>
+
+<h3>잠깐 멈추거나 나가려면?</h3>
+<p>게임 중 화면 <strong>왼쪽·오른쪽 가장자리 가운데</strong>의 일시정지 버튼. 계속하기,
+자리 바꾸기, 다른 놀이 중에서 고를 수 있어요. (연습장은 같은 자리에 <em>그만</em>
+버튼이 있어요.)</p>
+
+<h3>언어는 어떻게 바꾸나요?</h3>
+<p>첫 화면 → <em>설정</em> → 언어 버튼. 누를 때마다 English, 한국어, 日本語, 中文,
+Español, Français, Indonesia 순으로 넘어가고, 메뉴가 바로 바뀝니다. 처음 켤 때는
+아이패드에 설정된 언어를 따라갑니다.</p>
+
+<h3>소리를 줄이거나 끄려면?</h3>
+<p>첫 화면 → <em>설정</em>. 음악과 효과음 슬라이더가 따로 있고, 끝까지 내리면
+꺼집니다.</p>
+
+<h3>아이들이 자꾸 실수로 게임 밖으로 나가요.</h3>
+<p>여러 손이 화면을 누르다 보면 가장자리 쓸어넘기기나 왼쪽 위 창 버튼 때문에 게임에서
+나가질 수 있어요. <strong>사용법 유도</strong>를 켜면 막을 수 있습니다: 설정 → 손쉬운
+사용 → 사용법 유도를 켜고, 뒤뚱구스를 연 다음 상단 버튼을 세 번 눌러 <em>시작</em>.
+끝낼 때는 다시 세 번 누르고 암호를 넣으세요. iPadOS 26에서는 설정 → 멀티태스킹 및
+제스처에서 <strong>전체 화면 앱</strong>을 고르면 창 버튼 자체가 사라집니다.</p>
+
+<h3>인터넷이 필요한가요? 앱 안에서 따로 살 것이 있나요?</h3>
+<p>둘 다 아닙니다. 한 번 구입하면 그걸로 끝이고, 이후로는 인터넷에 접속하지 않고,
+계정·인앱결제·광고가 없으며, 이용자에 대해 아무것도 수집하지 않습니다.
+<a href="privacy-policy.html">개인정보 처리방침</a>을 참고하세요.</p>
+
+<h3>앱을 지웠다 다시 깔면 열어 둔 아이템이 돌아오나요?</h3>
+<p>아니요. 이 아이패드 안에만 저장되기 때문에 앱을 지우면 함께 지워집니다(보관해 둘
+계정이 없어요). 다른 아이패드와도 공유되지 않습니다.</p>
+
+<h3>환불받을 수 있나요?</h3>
+<p>앱스토어 구매의 환불은 애플이 처리하며, 저희가 직접 처리해 드릴 수는
+없습니다. <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>
+에서 신청하시거나, 아이패드에서 설정 → 이름 → 미디어 및 구입항목 → 구입 내역
+에서 신청하실 수 있습니다.</p>
+
+<h3>어떤 아이패드에서 되나요?</h3>
+<p>iPadOS 15 이상이면 됩니다. 아이패드 전용이며 가로 화면으로 놉니다.</p>
+</div>
+
+<footer>© 2026 Animated Breath · <a href="privacy-policy.html">Privacy Policy</a></footer>
+
+</main>
+</body>
+</html>
